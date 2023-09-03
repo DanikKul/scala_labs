@@ -1,0 +1,1 @@
+find . -type f -not \( -name '*.sh' -or -name '*.scala' -or -name '.gitignore' \) -delete
