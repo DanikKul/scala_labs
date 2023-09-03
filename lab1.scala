@@ -42,11 +42,6 @@ object Variant4 {
     println("Enter the number: ")
     z = scala.io.StdIn.readLine
 
-    if (z.length != 16) {
-      println("Incorrect number");
-      sys.exit(0)
-    }
-
     for (i <- 1 to 5) {
       while (z.length < 16) {
         z = "1" + z
